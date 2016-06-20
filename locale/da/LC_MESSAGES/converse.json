@@ -2,6 +2,11 @@
    "domain": "converse",
    "locale_data": {
       "converse": {
+         "": {
+            "domain": "converse",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "da"
+         },
          "Close this chat box": [
             null,
             "Luk denne chatbox"
@@ -56,7 +61,7 @@
          ],
          "Hide the list of occupants": [
             null,
-            "Skjul listen af besøgende"
+            "Skjul listen af gæster"
          ],
          "Insert a smiley": [
             null,
@@ -889,11 +894,7 @@
          "Are you sure you want to decline this contact request?": [
             null,
             "Er du sikker på, at du vil afvise denne kontaktanmodning?"
-         ],
-         "": {
-            "domain": "converse",
-            "lang": "Danish"
-         }
+         ]
       }
    }
 }

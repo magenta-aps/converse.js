@@ -9,22 +9,8 @@
 (function (root, factory) {
     define("moment_with_locales", [
         'moment',   // Everything below can be removed except for moment itself.
-        'moment_af',
-        'moment_de',
-        'moment_es',
-        'moment_fr',
-        'moment_he',
-        'moment_hu',
-        'moment_id',
-        'moment_it',
-        'moment_ja',
-        'moment_nb',
-        'moment_nl',
-        'moment_pl',
-        'moment_pt-br',
-        'moment_ru',
-        'moment_uk',
-        'moment_zh'
+        'moment_da',
+        'moment_uk'
         ], function (moment) {
             return moment;
         });
