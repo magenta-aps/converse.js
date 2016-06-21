@@ -949,6 +949,8 @@ There are two ways to add users.
 
 This setting enables the second mechanism, otherwise by default the first will be used.
 
+Note that it is possible to implement your own user search callback using `xhr_user_search_callback`, which may or may not send a request to a remote server.
+
 *What is expected from the remote server?*
 
 A default JSON encoded list of objects must be returned. Each object
@@ -965,9 +967,40 @@ xhr_user_search_url
 
 * Default:  Empty string
 
-Used only in conjunction with ``xhr_user_search``.
+Used only in conjunction with ``xhr_user_search`` and when ``xhr_user_search_callback`` is not overridden.
 
 This is the URL to which an XHR GET request will be made to fetch user data from your remote server.
 The query string will be included in the request with ``q`` as its key.
 
 The data returned must be a JSON encoded list of user JIDs.
+
+
+xhr_user_search_callback
+------------------------
+
+.. note::
+    XHR stands for XMLHTTPRequest, and is meant here in the AJAX sense (Asynchronous Javascript and XML).
+
+* Default:  ``converse.defaultXHRCallback``
+
+Used only in conjunction with ``xhr_user_search``.
+
+Ordinarily, you do not need to change this setting, but if you want more control over the way you
+make the user search request or return the data, then you can provide your own callback function.
+
+This is the callback function which converse.js calls when a user submits a request to search users.
+The parameters to the function are ``query``, which is the query the user typed in, and
+``callback``, which is a callback function which your callback function should call with the result
+data as its first and only parameter.
+
+For example:
+
+.. code-block:: javascript
+
+        function (query, callback) {
+                // Fetch users here
+                var users = [{id: 'user@example.com', fullname: 'Foo Bar'}];
+                callback(users);
+        }
+
+The data passed to the callback should be the same format as explained in `xhr_user_search`.
