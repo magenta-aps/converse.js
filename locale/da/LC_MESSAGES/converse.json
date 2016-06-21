@@ -1,0 +1,900 @@
+{
+   "domain": "converse",
+   "locale_data": {
+      "converse": {
+         "": {
+            "domain": "converse",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "da"
+         },
+         "Close this chat box": [
+            null,
+            "Luk denne chatbox"
+         ],
+         "Personal message": [
+            null,
+            "Personlig besked"
+         ],
+         "me": [
+            null,
+            "jeg"
+         ],
+         "is typing": [
+            null,
+            "skriver"
+         ],
+         "has stopped typing": [
+            null,
+            "skiver ikke længere"
+         ],
+         "has gone away": [
+            null,
+            "er gået"
+         ],
+         "Show this menu": [
+            null,
+            "Vis denne menu"
+         ],
+         "Write in the third person": [
+            null,
+            "Skriv i tredje person"
+         ],
+         "Remove messages": [
+            null,
+            "Fjern beskeder"
+         ],
+         "Are you sure you want to clear the messages from this chat box?": [
+            null,
+            "Er du sikker på, at du vil fjerne beskederne fra denne chatbox?"
+         ],
+         "has gone offline": [
+            null,
+            "er gået offline"
+         ],
+         "is busy": [
+            null,
+            "er optaget"
+         ],
+         "Clear all messages": [
+            null,
+            "Fjern alle beskeder"
+         ],
+         "Hide the list of occupants": [
+            null,
+            "Skjul listen af gæster"
+         ],
+         "Insert a smiley": [
+            null,
+            "Indsæt smiley"
+         ],
+         "Start a call": [
+            null,
+            "Start videochat"
+         ],
+         "Contacts": [
+            null,
+            "Kontakter"
+         ],
+         "Connecting": [
+            null,
+            "Forbinder"
+         ],
+         "XMPP Username:": [
+            null,
+            "XMPP brugernavn:"
+         ],
+         "Password:": [
+            null,
+            "Kodeord:"
+         ],
+         "Click here to log in anonymously": [
+            null,
+            "Klik her for at logge ind anonymt"
+         ],
+         "Log In": [
+            null,
+            "Log ind"
+         ],
+         "Username": [
+            null,
+            "Brugernavn"
+         ],
+         "user@server": [
+            null,
+            "bruger@server"
+         ],
+         "password": [
+            null,
+            "kodeord"
+         ],
+         "Sign in": [
+            null,
+            "Log ind"
+         ],
+         "I am %1$s": [
+            null,
+            "Jeg er %1$s"
+         ],
+         "Click here to write a custom status message": [
+            null,
+            "Klik her for at skrive din egen statusbesked"
+         ],
+         "Click to change your chat status": [
+            null,
+            "Klik for at ændre din chat-status"
+         ],
+         "Custom status": [
+            null,
+            "Selvvalgt status"
+         ],
+         "Save": [
+            null,
+            "Gem"
+         ],
+         "online": [
+            null,
+            "online"
+         ],
+         "busy": [
+            null,
+            "optaget"
+         ],
+         "away for long": [
+            null,
+            "fraværende i længere tid"
+         ],
+         "away": [
+            null,
+            "fraværende"
+         ],
+         "offline": [
+            null,
+            "offline"
+         ],
+         "Online": [
+            null,
+            "Online"
+         ],
+         "Busy": [
+            null,
+            "Optaget"
+         ],
+         "Away": [
+            null,
+            "Fraværende"
+         ],
+         "Offline": [
+            null,
+            "Offline"
+         ],
+         "Log out": [
+            null,
+            "Log ud"
+         ],
+         "Contact name": [
+            null,
+            "Kontaktnavn"
+         ],
+         "Search": [
+            null,
+            "Søg"
+         ],
+         "e.g. user@example.org": [
+            null,
+            "f.eks. bruger@eksempel.dk"
+         ],
+         "Add": [
+            null,
+            "Tilføj"
+         ],
+         "Click to add new chat contacts": [
+            null,
+            "Klik for at tilføje nye chatkontakter"
+         ],
+         "Add a contact": [
+            null,
+            "Tilføj en kontakt"
+         ],
+         "No users found": [
+            null,
+            "Ingen brugere fundet"
+         ],
+         "Click to add as a chat contact": [
+            null,
+            "Klik for at tilføje som en chatkontakt"
+         ],
+         "Toggle chat": [
+            null,
+            "Vis chat"
+         ],
+         "Attempting to reconnect": [
+            null,
+            "Forsøger at genskabe forbindelse"
+         ],
+         "Error": [
+            null,
+            "Fejl"
+         ],
+         "Authenticating": [
+            null,
+            "Kontrollerer"
+         ],
+         "Authentication Failed": [
+            null,
+            "Kom ikke igennem kontrollen"
+         ],
+         "Sorry, there was an error while trying to add ": [
+            null,
+            "Beklager. Der opstod en fejl under tilføjelsen "
+         ],
+         "This client does not allow presence subscriptions": [
+            null,
+            "Denne chat-klient tillader ikke 'presence subscriptions'"
+         ],
+         "Close this box": [
+            null,
+            "Luk denne box"
+         ],
+         "Minimize this box": [
+            null,
+            "Mininér denne box"
+         ],
+         "Click to restore this chat": [
+            null,
+            "Klik for at genoptage denne chat"
+         ],
+         "Minimized": [
+            null,
+            "Minimeret"
+         ],
+         "Minimize this chat box": [
+            null,
+            "Minimér denne chatbox"
+         ],
+         "Message": [
+            null,
+            "Besked"
+         ],
+         "Error: could not execute the command": [
+            null,
+            "Fejl: Kunne ikke eksekvere kommando"
+         ],
+         "Error: the \"": [
+            null,
+            "Fejl: \""
+         ],
+         "Are you sure you want to clear the messages from this room?": [
+            null,
+            "Er du sikker på at du ønsker at fjerne beskederne fra dette rum?"
+         ],
+         "Change user's affiliation to admin": [
+            null,
+            "Skift brugerens tilhørsforhold til admin"
+         ],
+         "Ban user from room": [
+            null,
+            "Sæt bruger i karatæne fra dette rum"
+         ],
+         "Change user role to occupant": [
+            null,
+            "Skift brugerrolle til gæst"
+         ],
+         "Kick user from room": [
+            null,
+            "Spark bruger ud af dette rum"
+         ],
+         "Write in 3rd person": [
+            null,
+            "Skriv i 3dje person"
+         ],
+         "Grant membership to a user": [
+            null,
+            "Giv medlemskab til en bruger"
+         ],
+         "Remove user's ability to post messages": [
+            null,
+            "Fjern en brugers mulighed for at skrive beskeder"
+         ],
+         "Change your nickname": [
+            null,
+            "Skift dit chatnavn"
+         ],
+         "Grant moderator role to user": [
+            null,
+            "Giv moderator-rolle til en bruger"
+         ],
+         "Grant ownership of this room": [
+            null,
+            "Giv ejerskab af dette rum"
+         ],
+         "Revoke user's membership": [
+            null,
+            "Ophæv en brugers medlemskab"
+         ],
+         "Set room topic": [
+            null,
+            "Sæt emne for denne rum"
+         ],
+         "Allow muted user to post messages": [
+            null,
+            "Tillad at en bruger med mundkurv kan skrive beskeder"
+         ],
+         "Cancel": [
+            null,
+            "Annullér"
+         ],
+         "An error occurred while trying to save the form.": [
+            null,
+            "Der skete en fejl da formularen skulle gemmes."
+         ],
+         "This chatroom requires a password": [
+            null,
+            "Dette chatrum kræver et kodeord"
+         ],
+         "Password: ": [
+            null,
+            "Kodeord: "
+         ],
+         "Submit": [
+            null,
+            "Send"
+         ],
+         "This room is not anonymous": [
+            null,
+            "Dette rum er ikke anonymt"
+         ],
+         "This room now shows unavailable members": [
+            null,
+            "Dette rum viser nu medlemmer, som ikke er tilgængelige"
+         ],
+         "This room does not show unavailable members": [
+            null,
+            "Dette rum viser ikke medlemmer, som ikke er tilgængelige"
+         ],
+         "Non-privacy-related room configuration has changed": [
+            null,
+            "Konfiguration for rummet, der ikke vedrører privatliv, er blevet ændret"
+         ],
+         "Room logging is now enabled": [
+            null,
+            "Logning af rum er aktiveret"
+         ],
+         "Room logging is now disabled": [
+            null,
+            "Logning af rum er deaktiveret"
+         ],
+         "This room is now non-anonymous": [
+            null,
+            "Dette rum er nu ikke-anonymt"
+         ],
+         "This room is now semi-anonymous": [
+            null,
+            "Dette rum er nu halv-anonymt"
+         ],
+         "This room is now fully-anonymous": [
+            null,
+            "Dette rum er nu helt anonymt"
+         ],
+         "A new room has been created": [
+            null,
+            "Et nyt rum er oprettet"
+         ],
+         "You have been banned from this room": [
+            null,
+            "Du er blevet forvist fra dette rum"
+         ],
+         "You have been kicked from this room": [
+            null,
+            "Du er blevet fjernet fra dette rum"
+         ],
+         "You have been removed from this room because of an affiliation change": [
+            null,
+            "Du er blevet fjernet fra dette rum, fordi dine tilhørsforhold er ændret"
+         ],
+         "You have been removed from this room because the room has changed to members-only and you're not a member": [
+            null,
+            "Du er blevet fjernet fra dette rum, fordi rummet er ændret til kun at være for medlemmer, og du er ikke et medlem"
+         ],
+         "You have been removed from this room because the MUC (Multi-user chat) service is being shut down.": [
+            null,
+            "Du er blevet fjernet fra dette rum, fordi servicen for multibruger-chat bliver lukket."
+         ],
+         "<strong>%1$s</strong> has been banned": [
+            null,
+            "<strong>%1$s</strong> er blevet forvist"
+         ],
+         "<strong>%1$s</strong>'s nickname has changed": [
+            null,
+            "<strong>%1$s</strong>s chatnavn er ændret"
+         ],
+         "<strong>%1$s</strong> has been kicked out": [
+            null,
+            "<strong>%1$s</strong> er blevet fjernet"
+         ],
+         "<strong>%1$s</strong> has been removed because of an affiliation change": [
+            null,
+            "<strong>%1$s</strong> er blevet fjernet pga. ændring i tilhørsforhold"
+         ],
+         "<strong>%1$s</strong> has been removed for not being a member": [
+            null,
+            "<strong>%1$s</strong> er blevet fjernet fordi vedkommende ikke er medlem"
+         ],
+         "Your nickname has been automatically changed to: <strong>%1$s</strong>": [
+            null,
+            "Dit chatnavn er automatisk blevet ændret til: <strong>%1$s</strong>"
+         ],
+         "Your nickname has been changed to: <strong>%1$s</strong>": [
+            null,
+            "Dit chatnavn er ændret til: <strong>%1$s</strong>"
+         ],
+         "The reason given is: \"": [
+            null,
+            "Grunden er: \""
+         ],
+         "You are not on the member list of this room": [
+            null,
+            "Du er ikke på listen over medlemmer i dette rum"
+         ],
+         "No nickname was specified": [
+            null,
+            "Intet chatnavn er angivet"
+         ],
+         "You are not allowed to create new rooms": [
+            null,
+            "Du har ikke tilladelse til at oprette nye rum"
+         ],
+         "Your nickname doesn't conform to this room's policies": [
+            null,
+            "Dit chatnavn er i modstrid med dette rums navne-politik"
+         ],
+         "Your nickname is already taken": [
+            null,
+            "Dit chatnavn er allerede optaget"
+         ],
+         "This room does not (yet) exist": [
+            null,
+            "Dette rum findes ikke (endnu)"
+         ],
+         "This room has reached its maximum number of occupants": [
+            null,
+            "Dette rum har ikke plads til flere gæster"
+         ],
+         "Topic set by %1$s to: %2$s": [
+            null,
+            "Emne ændret af %1$s til: %2$s"
+         ],
+         "This user is a moderator": [
+            null,
+            "Denne bruger er moderator"
+         ],
+         "This user can send messages in this room": [
+            null,
+            "Denne bruger kan sende beskeder i dette rum"
+         ],
+         "This user can NOT send messages in this room": [
+            null,
+            "Denne bruger kan IKKE sende beskeder i dette rum"
+         ],
+         "Invite": [
+            null,
+            "Invitation"
+         ],
+         "Occupants": [
+            null,
+            "Gæster"
+         ],
+         "You are about to invite %1$s to the chat room \"%2$s\". ": [
+            null,
+            "Du er ved at invitere %1$s til chatrummet \"%2$s\". "
+         ],
+         "You may optionally include a message, explaining the reason for the invitation.": [
+            null,
+            "Du kan evt. tilføje en besked om, hvorfor du inviterer."
+         ],
+         "Room name": [
+            null,
+            "Navn på rum"
+         ],
+         "Nickname": [
+            null,
+            "Chatnavn"
+         ],
+         "Server": [
+            null,
+            "Server"
+         ],
+         "Join Room": [
+            null,
+            "Deltag i dette rum"
+         ],
+         "Show rooms": [
+            null,
+            "Vis rum"
+         ],
+         "Rooms": [
+            null,
+            "Rum"
+         ],
+         "No rooms on %1$s": [
+            null,
+            "Ingen rum på %1$s"
+         ],
+         "Rooms on %1$s": [
+            null,
+            "Rum på %1$s"
+         ],
+         "Click to open this room": [
+            null,
+            "Klik for at åbne dette rum"
+         ],
+         "Show more information on this room": [
+            null,
+            "Vis mere information om dette rum"
+         ],
+         "Description:": [
+            null,
+            "Beskrivelse:"
+         ],
+         "Occupants:": [
+            null,
+            "Gæster:"
+         ],
+         "Features:": [
+            null,
+            "Features:"
+         ],
+         "Requires authentication": [
+            null,
+            "Kræver godkendelse"
+         ],
+         "Hidden": [
+            null,
+            "Skjult"
+         ],
+         "Requires an invitation": [
+            null,
+            "Kræver en invitation"
+         ],
+         "Moderated": [
+            null,
+            "Modereret"
+         ],
+         "Non-anonymous": [
+            null,
+            "Ikke anonymt"
+         ],
+         "Open room": [
+            null,
+            "Åben rum"
+         ],
+         "Permanent room": [
+            null,
+            "Permanent rum"
+         ],
+         "Public": [
+            null,
+            "Offentlig"
+         ],
+         "Semi-anonymous": [
+            null,
+            "Halv-anonymt"
+         ],
+         "Temporary room": [
+            null,
+            "Midlertidigt rum"
+         ],
+         "Unmoderated": [
+            null,
+            "Umodereret"
+         ],
+         "%1$s has invited you to join a chat room: %2$s": [
+            null,
+            "%1$s har inviteret dig til at deltager i chatrum: %2$s"
+         ],
+         "%1$s has invited you to join a chat room: %2$s, and left the following reason: \"%3$s\"": [
+            null,
+            "%1$s har inviteret dig til at deltage i et chatrum: %2$s, med følgende besked: \"%3$s\""
+         ],
+         "Notification from %1$s": [
+            null,
+            "Besked fra %1$s"
+         ],
+         "%1$s says": [
+            null,
+            "%1$s skriver"
+         ],
+         "has come online": [
+            null,
+            "er online"
+         ],
+         "wants to be your contact": [
+            null,
+            "vil gerne være din kontakt"
+         ],
+         "An error has occured": [
+            null,
+            "En fejl er opstået"
+         ],
+         "Re-establishing encrypted session": [
+            null,
+            "Genskaber krypteret session"
+         ],
+         "Generating private key.": [
+            null,
+            "Opretter privat nøgle."
+         ],
+         "Your browser might become unresponsive.": [
+            null,
+            "Din browser vil måske blive sløv i optrækket for en stund."
+         ],
+         "Authentication request from %1$s\n\nYour chat contact is attempting to verify your identity, by asking you the question below.\n\n%2$s": [
+            null,
+            "Anmodning om godkendelse fra %1$s\n\nDin chatkontakt forsøger at kontrollere din identitetved at stille nedenstående spørgsmål.\n\n%2$s"
+         ],
+         "Could not verify this user's identify.": [
+            null,
+            "Kunne ikke verificere denne brugers identitet."
+         ],
+         "Exchanging private key with contact.": [
+            null,
+            "Udveksler private nøgler med kontakt."
+         ],
+         "Your messages are not encrypted anymore": [
+            null,
+            "Dine beskeder er ikke krypterede længere"
+         ],
+         "Your messages are now encrypted but your contact's identity has not been verified.": [
+            null,
+            "Dine beskeder er nu krypterede, men din kontakts identitet er ikke verificeret."
+         ],
+         "Your contact's identify has been verified.": [
+            null,
+            "Din kontakts identitet er blevet verificeret."
+         ],
+         "Your contact has ended encryption on their end, you should do the same.": [
+            null,
+            "Din kontakt har afsluttet kryptering i sin ende. Du bør gøre det samme."
+         ],
+         "Your message could not be sent": [
+            null,
+            "Din besked kunne ikke sendes"
+         ],
+         "We received an unencrypted message": [
+            null,
+            "Vi har modtaget en ukrypteret besked"
+         ],
+         "We received an unreadable encrypted message": [
+            null,
+            "Vi har modtaget en ulæselig krypteret besked"
+         ],
+         "Here are the fingerprints, please confirm them with %1$s, outside of this chat.\n\nFingerprint for you, %2$s: %3$s\n\nFingerprint for %1$s: %4$s\n\nIf you have confirmed that the fingerprints match, click OK, otherwise click Cancel.": [
+            null,
+            "Her er fingeraftrykkene. Sørg for at bekræfte dem med %1$s udenfor denne chat.\n\nDit fingeraftryk, %2$s: %3$s\n\nFingeraftryk for %1$s: %4$s\n\nKlik OK, hvis du har kontrolleret, at fingeraftrykkende matcher. Ellers klik Annullér."
+         ],
+         "You will be prompted to provide a security question and then an answer to that question.\n\nYour contact will then be prompted the same question and if they type the exact same answer (case sensitive), their identity will be verified.": [
+            null,
+            "Du vil blive bedt om at angive et sikkerhedsspørgsmål og derefter svare på dette spørgsmål.\n\nDin kontakt vil derefter blive bedt om at skrive svaret på samme spørgsmål.Hvis din kontakt kan skrive præcis det samme svar, vil dennes identitet være verificeret."
+         ],
+         "What is your security question?": [
+            null,
+            "Hvad er dit sikkerhedsspørgsmål?"
+         ],
+         "What is the answer to the security question?": [
+            null,
+            "Hvad er svaret på dit sikkerhedsspørgsmål?"
+         ],
+         "Invalid authentication scheme provided": [
+            null,
+            "Det angivne godkendelsesskema kan ikke benyttes"
+         ],
+         "Your messages are not encrypted. Click here to enable OTR encryption.": [
+            null,
+            "Dine beskeder er ikke krypteret. Klik her for at aktivere OTR-kryptering."
+         ],
+         "Your messages are encrypted, but your contact has not been verified.": [
+            null,
+            "Dine beskeder er krypteret, men din kontakt er ikke blevet godkendt."
+         ],
+         "Your messages are encrypted and your contact verified.": [
+            null,
+            "Dine beskeder er krypteret, og din kontakt er godkendt."
+         ],
+         "Your contact has closed their end of the private session, you should do the same": [
+            null,
+            "Din kontakt har afsluttet den private session i sin ende. Du bør gøre det samme"
+         ],
+         "End encrypted conversation": [
+            null,
+            "Afslut krypteret samtale"
+         ],
+         "Refresh encrypted conversation": [
+            null,
+            "Genopfrisk krypteret samtale"
+         ],
+         "Start encrypted conversation": [
+            null,
+            "Start krypteret samtale"
+         ],
+         "Verify with fingerprints": [
+            null,
+            "Godkend med fingeraftryk"
+         ],
+         "Verify with SMP": [
+            null,
+            "Godkend med SMP"
+         ],
+         "What's this?": [
+            null,
+            "Hvad er det?"
+         ],
+         "unencrypted": [
+            null,
+            "ukrypteret"
+         ],
+         "unverified": [
+            null,
+            "ikke godkendt"
+         ],
+         "verified": [
+            null,
+            "godkendt"
+         ],
+         "finished": [
+            null,
+            "afsluttet"
+         ],
+         " e.g. conversejs.org": [
+            null,
+            " f.eks. conversejs.org"
+         ],
+         "Your XMPP provider's domain name:": [
+            null,
+            "Domænenavn for din XMPP-operatør:"
+         ],
+         "Fetch registration form": [
+            null,
+            "Skaf oprettelsesformular"
+         ],
+         "Tip: A list of public XMPP providers is available": [
+            null,
+            "Tip: Der findes en liste over offentlige XMPP-operatører"
+         ],
+         "here": [
+            null,
+            "her"
+         ],
+         "Register": [
+            null,
+            "Opret"
+         ],
+         "Sorry, the given provider does not support in band account registration. Please try with a different provider.": [
+            null,
+            "Beklager. Denne operatør understøtter ikke 'in band account registration.'Prøv venligst med en anden operatør."
+         ],
+         "Requesting a registration form from the XMPP server": [
+            null,
+            "Henter en oprettelsesformular fra XMPP serveren"
+         ],
+         "Something went wrong while establishing a connection with \"%1$s\". Are you sure it exists?": [
+            null,
+            "Noget gik galt under oprettelse af forbindelse til \"%1$s\". Er du sikker på, at den stadig findes?"
+         ],
+         "Now logging you in": [
+            null,
+            "Logger dig ind nu"
+         ],
+         "Registered successfully": [
+            null,
+            "Oprettet"
+         ],
+         "Return": [
+            null,
+            "Tilbage"
+         ],
+         "The provider rejected your registration attempt. Please check the values you entered for correctness.": [
+            null,
+            "Operatøren afviste dit forsøg på at blive oprettet. Kontroller venligst, at du angav de rigtige oplysninger."
+         ],
+         "This contact is busy": [
+            null,
+            "Denne kontakt er optaget"
+         ],
+         "This contact is online": [
+            null,
+            "Denne kontakt er online"
+         ],
+         "This contact is offline": [
+            null,
+            "Denne kontakt er offline"
+         ],
+         "This contact is unavailable": [
+            null,
+            "Denne kontakt er ikke tilgængelig"
+         ],
+         "This contact is away for an extended period": [
+            null,
+            "Denne kontakt er fraværende i en længere periode"
+         ],
+         "This contact is away": [
+            null,
+            "Denne kontakt er fraværende"
+         ],
+         "Click to hide these contacts": [
+            null,
+            "Klik for at skjule disse kontakter"
+         ],
+         "Groups": [
+            null,
+            "Grupper"
+         ],
+         "My contacts": [
+            null,
+            "Mine kontakter"
+         ],
+         "Pending contacts": [
+            null,
+            "Afventende kontakter"
+         ],
+         "Contact requests": [
+            null,
+            "Kontakt-anmodninger"
+         ],
+         "Ungrouped": [
+            null,
+            "Ikke-grupperet"
+         ],
+         "Filter": [
+            null,
+            "Filter"
+         ],
+         "State": [
+            null,
+            "Tilstand"
+         ],
+         "Any": [
+            null,
+            "Alle"
+         ],
+         "Chatty": [
+            null,
+            "Konversationslysten"
+         ],
+         "Extended Away": [
+            null,
+            "Fraværende i længere tid"
+         ],
+         "Click to remove this contact": [
+            null,
+            "Klik for at fjerne denne kontakt"
+         ],
+         "Click to accept this contact request": [
+            null,
+            "Klik for at acceptere denne kontaktanmodning"
+         ],
+         "Click to decline this contact request": [
+            null,
+            "Klik for at afvise denne kontaktanmodning"
+         ],
+         "Click to chat with this contact": [
+            null,
+            "Klik for at chatte med denne kontakt"
+         ],
+         "Name": [
+            null,
+            "Navn"
+         ],
+         "Are you sure you want to remove this contact?": [
+            null,
+            "Er du sikker på, at du vil fjerne denne kontakt?"
+         ],
+         "Sorry, there was an error while trying to remove ": [
+            null,
+            "Beklager. Der opstod en fejl i forsøget på at fjerne "
+         ],
+         "Are you sure you want to decline this contact request?": [
+            null,
+            "Er du sikker på, at du vil afvise denne kontaktanmodning?"
+         ]
+      }
+   }
+}
