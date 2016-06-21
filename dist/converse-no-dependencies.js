@@ -7491,13 +7491,20 @@ define('text!da',[],function () { return '{\n   "domain": "converse",\n   "local
              * loaded by converse.js's plugin machinery.
              */
             var converse = this.converse;
-            this.updateSettings({
+            converse.defaultXHRCallback = function (query, callback) {
+		$.getJSON(converse.xhr_user_search_url + "?q=" + encodeURIComponent(query), function (data) {
+		    callback(data);
+		});
+	    };
+	    
+	    this.updateSettings({
                 allow_logout: true,
                 default_domain: undefined,
                 show_controlbox_by_default: false,
                 sticky_controlbox: false,
                 xhr_user_search: false,
-                xhr_user_search_url: ''
+                xhr_user_search_url: '',
+                xhr_user_search_callback: converse.defaultXHRCallback
             });
 
             var LABEL_CONTACTS = __('Contacts');
@@ -7936,7 +7943,7 @@ define('text!da',[],function () { return '{\n   "domain": "converse",\n   "local
 
                 searchContacts: function (ev) {
                     ev.preventDefault();
-                    $.getJSON(converse.xhr_user_search_url+ "?q=" + $(ev.target).find('input.username').val(), function (data) {
+                    converse.xhr_user_search_callback($(ev.target).find('input.username').val(), function (data) {
                         var $ul= $('.search-xmpp ul');
                         $ul.find('li.found-user').remove();
                         $ul.find('li.chat-info').remove();
